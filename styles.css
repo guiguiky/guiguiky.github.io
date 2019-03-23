@@ -1,0 +1,37 @@
+body {
+	margin-left: 200px;
+	background-color: oldlace;
+}
+
+header h1 {
+	text-align: center;
+}
+
+ul.navbar li {
+  margin: 5px 0;
+  padding: 5px;
+  border-right: 1px solid #17252a;
+  border-top: 1px solid #17252a;
+  border-left: 10px solid #17252a;
+  border-bottom: 1px solid #17252a;
+}
+
+#s1 p {
+	color: blue;
+}
+
+#s2 p {
+	color: purple;
+}
+
+#s3 p {
+	color: green;
+}
+
+#s4 p,li {
+	color: orange;
+}
+
+#s5 p {
+	color: red;
+}

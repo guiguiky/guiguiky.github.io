@@ -1,0 +1,28 @@
+<script type="text/javascript">
+        // ----------- TASK 6 -----------------------------------------
+        var changeSrc = function(event) {
+          if (event.target.src) {
+            event.target.src = "flower2.png";
+          }
+        };
+        document.getElementById("event").addEventListener("mouseover", changeSrc);
+</script>
+
+<script type="text/javascript">
+        // ----------- TASK 5 -----------------------------------------
+        let spans = document.getElementById("rainbow").querySelectorAll(".element");// fill with proper code
+        let colors = ["red", "orange", "yellow", "green", "blue", "purple", "pink"];
+
+        for (var i = spans.length - 1; i >= 0; i--) {
+          spans[i].style.color = colors[i];// fill with proper code
+        } 
+</script>
+
+<script type="text/javascript">
+      // ----------- TASK 4 -----------------------------------------
+      let img = document.createElement("img");
+      img.src = "flower2.png";
+      var src = document.getElementById("new_element");
+      src.appendChild(img);
+</script>
+

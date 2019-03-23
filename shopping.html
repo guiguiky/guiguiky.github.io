@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <script type="text/javascript" src="script.js"></script>
+        <title> Shopping Site </title>
+    </head>
+
+    <body>
+        <input type="checkbox" name="important" value="important" id="important"> Is important <br/>
+        <input type="checkbox" name="grocerie" value="grocerie" id="grocerie"> Can be bought in groceries
+
+        <div id="ajouter">
+            <label for="ItemB"> Item to buy </label>
+            <input type="text" name="item" id="item">
+            <button onclick="addItem()"> Add </button>
+        </div><br/><br/>
+
+        <div id="retirer">
+            <label for="ItemB"> Item to remove (enter the number of the item) </label>
+            <input type="number" name="item2" id="item2">
+            <button onclick="removeItem()"> Remove </button>
+        </div><br/><br/>
+
+        <label for="list"> Shopping list: </label>
+        <ul id="liste">
+
+        </ul>
+    </body>
+</html>
