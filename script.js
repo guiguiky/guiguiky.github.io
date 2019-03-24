@@ -47,9 +47,8 @@ function addItem(){
 
 function removeItem(){
     var ul = document.getElementById("liste");
-    var item2 = document.getElementById("item2");
-    var element = document.getElementById(item2.value);
-    ul.removeChild(element);
+    var item2 = document.getElementById("item2").value;
+    ul.removeChild(ul.childNodes[item2]);
 }
 
 function init(){
